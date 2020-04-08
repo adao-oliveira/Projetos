@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projetos</title>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            padding: 0 auto;
+            overflow: hidden;
+            }
+
+        .title{
+            margin: 0 auto;
+            color: white; 
+            font-family: 'Lato', sans-serif;
+            font-size: 3rem;
+            }
+
+        .container {
+            width: 100%;
+            height: 100%;  
+            display: flex;
+            align-items: center;
+            text-align: center;
+            animation: colors 4s infinite;
+            }
+
+            @keyframes colors {
+            0% {
+            background-color: rgb(14, 2, 48);
+            }
+
+            50% {
+            background-color: rgb(20, 6, 80);
+            }
+
+            100% {
+            background-color: rgb(27, 9, 109);
+                }
+            }
+            
+        .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: rgb(255, 136, 0);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px rgb(255, 181, 44);
+            }
+        
+        .button:hover {
+            background-color: #00691a
+            }
+        
+        .button:active {
+            background-color: #fa0000;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+            }
+
+        .button a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <span class="title">Bem vindo!
+        <br>
+            <button class="button"><a href="proj04">CLIQUE AQUI</a></button>
+        </span>
+    </div>
+</body>
+</html>

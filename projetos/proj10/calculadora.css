@@ -1,0 +1,35 @@
+body {
+  background-color:#000000;
+}
+
+h1 {
+  color: #00ff2a;
+  text-align: center;
+  font-family: arial;
+}
+
+button {
+  background-color: #fff;
+  color: #000000;
+  border-color: #ff0000;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  font-size: 15px;
+}
+
+#boxdecalc {
+  background-color: #ffffff;
+  border-color: #15ff00;
+  padding-left: 20px;
+  padding-right: 10px;
+  filter: drop-shadow(5px 5px 5px #a09d9d);
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 150px;
+  font-family: arial;
+}
+
+button:hover {
+  filter: drop-shadow(2px 2px 2px #66ff00);
+}
